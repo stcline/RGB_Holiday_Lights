@@ -1,6 +1,11 @@
 # This script controls a reapberry pi with python.
 # It will turn 10 LED's in a WS2811 strip.
 # They will turn on red then blue every 1 second.
+# The pins should be connected as follows:
+# 5V to 5V
+# GND to GND
+# DIN to board.D18 (Which is GPIO 18)
+
 
 import time
 import board
