@@ -2,3 +2,4 @@
 
 This project utilizes a Raspberry Pi to control individually adressable RGB LED light strips.
 It will be awesome!
+Will it?
