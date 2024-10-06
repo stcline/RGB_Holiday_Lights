@@ -15,7 +15,7 @@ import neopixel
 num_pixels = 10
 
 # Define the pin the strip is connected to
-pixel_pin = board.D18
+pixel_pin = board.D24
 
 # Define the order of the pixel colors - RGB or GRB
 ORDER = neopixel.GRB
