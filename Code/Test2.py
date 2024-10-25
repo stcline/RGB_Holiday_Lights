@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 # Define the GPIO pin connected to the LED strip data input
-LED_PIN = 12
+LED_PIN = 18  # Updated to match the comment in Code/Test.py
 
 # Set up the LED_PIN as an output
 GPIO.setup(LED_PIN, GPIO.OUT)
